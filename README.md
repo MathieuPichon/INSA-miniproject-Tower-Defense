@@ -7,3 +7,6 @@ Put all your files in the master branch, since everytime we push stuff, a backup
 Try keeping the number of file low since we cannot do directories (it would need to be branches), If you find interesting GIT commands, please create a text file in it so we can all have them.
 
 Remeber to add comments/small notes when you push changes so we know what you are doing!
+
+
+easy tuto: https://try.github.io/levels/1/
