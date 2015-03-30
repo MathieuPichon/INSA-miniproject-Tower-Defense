@@ -1,5 +1,8 @@
-Le ThomasPointus est une espèce rare, qui survit plutôt difficilement dans son milieu naturel mais malgré des difficultés pratiques,
+﻿Le ThomasPointus est une espèce rare, qui survit plutôt difficilement dans son milieu naturel mais malgré des difficultés pratiques,
 il s'achargne toujours jusqu'à reussir (approximativement) ce qu'il entreprend. 
 Dernierement dans son histoire il a décidé de se frotter à un affreux monstre tentaculaire du terrifiant nom de GitHub...
 
 la suite dans le prochain épisode (continue voir si tu arrive à push tes modifications :pp)
+
+
+une description plutôt honnête ! j'ai bien rigolé en tout cas ! bon maintenant faut trouver comment faire pour supprimer 
