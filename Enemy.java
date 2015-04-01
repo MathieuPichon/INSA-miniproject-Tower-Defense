@@ -24,6 +24,12 @@ public class Enemy {
             if(current == goal) {
                 LinkedList <Square> totalPath = new LinkedList <> (); 
                 totalPath = reconstructPath(current);
+               /*
+                pathReconstructed(totalPath); // to check if the path calculated is correct
+                    a small problem : with this test the method doesn't return 
+                    true anymore but we can see the entire path and it's correct, 
+                    there is no aberration
+                */
                 return true;
             }
             
@@ -75,6 +81,19 @@ public class Enemy {
             totalPath.add(current);
         }
         return totalPath; 
+    }
+    
+    //just a little function to ckeck if the calculated path is correct
+    public void pathReconstructed  ( LinkedList <Square> totalPath){
+        Square [] pathArray = new Square[totalPath.size()];
+        pathArray= totalPath.toArray(pathArray);
+        System.out.println("position of the reconstructed path");
+        for (int i=0; i< pathArray.length;i++ ){
+            System.out.println(pathArray[i].position); 
+        }
+        System.out.println("end of the reconstructed path");
+        
+        
     }
 }
 
