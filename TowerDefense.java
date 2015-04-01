@@ -1,10 +1,10 @@
 public class TowerDefense {
     
+    
     Square goal = new Square(9,9);
     Square [][] mainGrid = new Square[10][10];
     
     public TowerDefense() {
-        
         //initialise the grid with all the squares
         //we need it to attribute the neighborgs later
         for(int i = 0; i<10; i++){
